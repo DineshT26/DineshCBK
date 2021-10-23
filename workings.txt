@@ -1,0 +1,52 @@
+
+Aksheyaa@ACER MINGW64 /
+$ git --version
+git version 2.33.1.windows.1
+
+Aksheyaa@ACER MINGW64 /
+$
+	
+
+GIT installation path - %SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd
+
+Aksheyaa@ACER MINGW64 ~/Documents/Dinesh/GIT
+$ git remote add origin https://github.com/DineshT26/DineshCBK.git
+fatal: not a git repository (or any of the parent directories): .git
+
+Aksheyaa@ACER MINGW64 ~/Documents/Dinesh/GIT
+$ git init
+Initialized empty Git repository in C:/Users/Aksheyaa/Documents/Dinesh/GIT/.git/
+
+Aksheyaa@ACER MINGW64 ~/Documents/Dinesh/GIT (master)
+$ git remote add origin https://github.com/DineshT26/DineshCBK.git
+
+Aksheyaa@ACER MINGW64 ~/Documents/Dinesh/GIT (master)
+$ git remote -v
+origin  https://github.com/DineshT26/DineshCBK.git (fetch)
+origin  https://github.com/DineshT26/DineshCBK.git (push)
+
+Aksheyaa@ACER MINGW64 ~/Documents/Dinesh/GIT (master)
+$ git pull origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 607 bytes | 2.00 KiB/s, done.
+From https://github.com/DineshT26/DineshCBK
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+
+Aksheyaa@ACER MINGW64 ~/Documents/Dinesh/GIT (master)
+
+main is the branch name
+
+pull will do both fetch and merge
+
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        workings.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Aksheyaa@ACER MINGW64 ~/Documents/Dinesh/GIT (master)
